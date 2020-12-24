@@ -1,0 +1,199 @@
+.ff-roboto { font-family: 'Roboto', sans-serif; }
+.ff-hammersmith { font-family: 'Hammersmith One', sans-serif; }
+.ff-playfair { font-family: 'Playfair Display', serif; }
+
+.fs-14 { font-size: 14px; }
+.fs-15 { font-size: 15px; }
+.fs-20 { font-size: 20px; }
+.fs-30 { font-size: 30px; }
+.fs-100 { font-size: 100px; }
+
+.w-210 {width: 210px;}
+
+.h-40 {height: 40px;}
+
+.text-0eaeae { color: #0eaeae }
+.text-413d4b { color: #413d4b }
+
+
+.bg-header {
+    background:  url('../img/bg-header.jpg') center center no-repeat;
+    background-size: cover;
+}
+.bg-city {
+    background: url('../img/bg-city.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.bg-card {
+    background: url('../img/bg-card.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.bg-trees {
+    background: url('../img/bg-tree.png') center center no-repeat;
+    background-size: cover;
+}
+
+.bg-form {
+    background: url('../img/bg-form.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.p-15 { padding: 15px; }
+.pl-20 { padding-left: 20px; }
+.pr-20 { padding-right: 20px; }
+
+.mt-50 { margin-top: 50px; }
+.mt-70 { margin-top: 70px; }
+.mt-200 { margin-top: 200px; }
+
+.mb-25 { margin-bottom: 25px; }
+.mb-40 { margin-bottom: 40px; }
+.mb-50 { margin-bottom: 50px; }
+.mb-70 { margin-bottom: 70px; }
+.mb-100 { margin-bottom: 100px; }
+.mb-125 { margin-bottom: 125px; }
+.mb-180 { margin-bottom: 180px; }
+.mb-200 { margin-bottom: 200px; }
+.mr-100 { margin-right: 100px;}
+
+.w-50 { width: 50px !important }
+
+.border-50 { border: 50% !important; }
+
+.border-color { border: 1px solid #00e0d0; }
+.border-color-1 { border: 1px solid #c6c4c9; }
+
+.slider-dots li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #00e0d0;
+    cursor: pointer;
+}
+
+.dot-active,    
+.menu-1 li:hover { background-color: #00e0d0; }
+
+.active,
+.menu li a:hover { color: #00e0d0 !important }
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #2c274b;
+    opacity: 0.85;
+}
+
+
+.position-relative { position: relative; }
+
+.play-icon {
+    background: url('../img/play-icon.png') center center no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.export-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.comp-icon {
+    background: url('../img/comp-logo.png') center center no-repeat;
+    background-size: contain;
+}
+
+.pencile-icon {
+    background: url('../img/pencile-logo.png') center center no-repeat;
+    background-size: contain;
+}
+
+.phone-icon {
+    background: url('../img/phone-logo.png') center center no-repeat;
+    background-size: contain;
+}
+
+.diagram-icon {
+    background: url('../img/diagram-logo.png') center center no-repeat;
+    background-size: contain;
+}
+
+.calc-icon {
+    background: url('../img/calc-logo.png') center center no-repeat;
+    background-size: contain;
+}
+
+.heart-icon {
+    background: url('../img/heart-logo.png') center center no-repeat;
+    background-size: contain;
+}
+
+.box {
+   background: #fff url('../img/img-avatar.png') center center no-repeat;
+   background-size: cover;
+   height: 230px;
+}
+
+
+.fluid-images {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.form-control-plaintext1 {
+    width: 262px;
+    height: 45px;
+    outline: none;
+    display: block;
+    padding-top: 0.575rem;
+    padding-bottom: 0.575rem;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  form img {
+    box-sizing: border-box;
+    background-color: #a59db8;
+    padding: 11px 25px;
+    margin-left: .8em;
+    cursor: pointer;
+  }
+
+.hoverLink {
+    padding: 0;
+    display: flex;
+}
+
+.hoverLink li {
+    list-style: none;
+}
+
+.hoverLink li a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    margin-right: 1em;
+}
+
+.hoverLink li a:hover {
+    background-color: white;
+    color: #2c274b;
+    transition: .5s;
+}
